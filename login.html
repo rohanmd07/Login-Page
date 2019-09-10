@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+        Login Page
+        </title>
+    </head>
+    <body>
+        <div class="sign-up">
+            <p>New to the site?</p>
+            <input type="submit" id="signup" value="Sign-up" onclick="openform()">
+        </div>
+        <div class="credentials">
+            <div>
+                <label for="username" ><img src="logos/userIcon.png">Username</label>   
+                <input type="text" placeholder="user@gmail.com" id="username" name="username" required pattern="[A-Za-z]+">
+            </div>
+            <div>
+                <label for="pass"><img id="keyimage" src="logos/passwordIcon.png">Password(minimum 8 characters)</label>
+                <input type="password" placeholder="Dont put your DOB"  id="password" name="password" minlength="8" required>
+                <input type="image" src="logos/invisible.png"  id="invisibleLogo" onclick="ImageChangeShowPass()">
+            </div>
+            
+            <input type="submit" id="signin" onclick="CheckPassword(document.getElementById('username').value,document.getElementById('password').value)" value="Sign-in">
+        </div>
+            <div class="alterlogin">
+                <p>OR</p>     
+                <img src="logos/googleLogo.png" id="googleIcon">
+                <img src="logos/facebookLogo.png" id="facebookLogo">
+                <img src="logos/twitterLogo.png" id="twitterLogo">       
+        </div>
+      <script type="text/javascript" src="login.js"></script>  
+    </body>
+</html>

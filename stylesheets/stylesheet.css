@@ -1,0 +1,89 @@
+
+label {
+    display: block;
+    font: 1.1rem 'Fira Sans', sans-serif;
+    
+}
+
+input[type='submit'],
+label {
+    margin-top: 1rem;
+}
+
+img {
+    float: left;
+    width:30px;
+   }
+
+#keyimage {
+    height:25px;
+}
+
+#signin{
+    margin-left:30px;
+    width:100px;
+    border-radius: 20px;
+    background-color: lightblue;
+}
+
+#signup{
+    width:100px;
+    margin-top: -7px;
+    border-radius: 20px;
+    background-color: lightblue;
+}
+
+p{
+    font: 1.1rem 'Fira Sans', sans-serif;
+}
+
+.sign-up{
+    position: absolute;
+    margin-top: -169px;
+    margin-left: 945px;
+}
+
+input{
+    width:300px;
+    height:30px;
+}
+
+.credentials{
+    margin-left: 600px;
+    margin-top:300px;
+}
+
+.alterlogin{
+    margin-left:632px;
+}
+
+#invisibleLogo{
+    float: right;
+    position: absolute;
+    padding-left: 10px;
+    width:30px;
+    height:30px;
+}
+
+#googleIcon{
+    padding-right: 10px;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+}
+
+#facebookLogo{
+    padding-right:5px;
+    padding-left:5px;
+    height:55px;
+    width:55px;
+    border-radius:50%;
+}
+
+#twitterLogo{
+    padding-left:10px;
+    height:60px;
+    width:60px;
+    border-radius: 0%;
+}
+
