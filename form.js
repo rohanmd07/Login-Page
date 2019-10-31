@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-            Signup form
+            Signup 
         </title>
     </head>
 
